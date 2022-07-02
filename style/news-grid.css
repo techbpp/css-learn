@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 7rem;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.catagory-icon{
+   font-size: 1rem; 
+   margin-right: 0.3rem;
+   color: #095473;
+}
+
+dv{
+    border: 1px solid blue; /* layout design */
+
+}
+
+body{
+    margin: 0;
+    background-color: #B9D6BC;
+}
+
+.header{
+    background-color: #095473;
+    border-bottom: 5px solid #5B95AA;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+
+}
+.nav-link {
+    padding: 2rem;
+    color: #f2d2a2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #5B95AA;
+}
+
+.logo{
+    color: #F2D2A2;
+    padding:20px;
+    margin: 0;
+}
+
+.footer{
+    /* background-color: rgba(50, 255, 255, 35%); */
+    /* clear: both;   */
+    padding:15px;
+    background-color: #095473;
+    color: #B9D6BC;
+}
+
+.gridcontain{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    
+     
+}
+
+.signup-contain{
+     width: 35rem;
+     border: 0.2rem solid #349B90;
+     border-radius: 0.5rem;
+     margin: auto;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     padding: 1rem;
+}
+
+.form-element{
+
+}
+
+.form-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
+
+
+}
+
+label{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #095473;
+}
+
+.label-radio{
+    display: inline;
+    
+}
+
+input[type='text'] ,input[type='password'],select,textarea {
+    width: 100%;
+    font-size: 0.85rem;
+    border:none;
+    border-bottom: 0.2rem solid #349B90;
+    background-color: #B9D6BC;
+    color: #095473;
+    outline: none;
+}
+
+/* focus is used for click on focus  */
+
+input[type='text']:focus ,input[type='password']:focus,select:focus ,textarea:focus {
+    border-bottom: 0.2rem solid #095473;
+}
+
+input[type='submit']{
+    background-color: #095473;
+    padding: 1rem;
+    color: #B9D6BC;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 0.15rem solid #5B95AA;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #B9D6BC;
+    color: #095473;
+}
+
+
+.category-column{
+    /* width: 25%; */
+     /* float: left;  */
+    /* padding: 10px; */
+    /* background-color: rgba(255, 50, 50, 35%); */
+
+}
+
+.headlines-column{
+    /* width: 50%; */
+    /* padding: 10px; */
+    /* float: left; */
+    /* background-color: rgba(50, 255, 50, 35%); */
+}
+
+.weather-column{
+    /* width: 25%; */
+    /* padding: 10px; */
+    /* float: left;  */
+    /* background-color: rgba(50, 50, 255, 35%); */
+}
+
+.headlines{
+    color:#349B90;
+    padding: 10px; 
+    margin: 1px;
+    margin-top: 0%;
+}
+
+.content{
+    border:2px solid #349B90;
+    border-radius: 5px;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.news-title,.category-items{
+    /* padding: 5px; */
+    margin: 5px;
+    color: #095473;
+}
+
+.news-title:hover{   /*hover design*/
+    color: #349B90;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.weather-degree{
+    text-align: center;
+    color:#095473;
+    font-size: 60px;
+}

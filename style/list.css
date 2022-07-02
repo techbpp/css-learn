@@ -1,0 +1,17 @@
+ul{
+    list-style-type:square;
+    /* list-style-image: url(); */
+}
+
+ol{
+    /* list-style-type:none; */
+    margin: 3px;
+    /* padding: 0px; */
+    list-style-position:outside;
+}
+h2{
+    color: red;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 4px;
+}
